@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "interaction",
+                            "nbt": "{Tags:[\"locker\",\"exit\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:clickable/trigger/locker/exit"
+    },
+    "parent": "lobby:detect/root"
+}

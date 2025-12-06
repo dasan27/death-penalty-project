@@ -1,0 +1,3 @@
+item replace entity @s armor.chest with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"chest",asset_id:"suit",swappable:true},item_model="icon/suit/chest",item_name={"color":"dark_green","translate":"game.item.suit_chest"}] 1
+item replace entity @s armor.legs with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"legs",asset_id:"suit",swappable:true},item_model="icon/suit/legs",item_name={"color":"dark_green","translate":"game.item.suit_legs"}] 1
+item replace entity @s armor.feet with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"feet",asset_id:"suit",swappable:true},item_model="icon/suit/feet",item_name={"color":"dark_green","translate":"game.item.suit_feet"}] 1

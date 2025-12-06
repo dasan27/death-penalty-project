@@ -1,0 +1,2 @@
+function core:block_physics/move {"id":"elevator","x":"0","y":"-0.11","z":"0"}
+execute as @n[type=block_display,tag=physicsBlock,tag=elevator,tag=guide] at @s if predicate lobby:queue/elevator_in_ground run function core:block_physics/elevator/stop

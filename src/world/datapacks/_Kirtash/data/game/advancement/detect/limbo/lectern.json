@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "interaction",
+                            "nbt": "{Tags:[\"limbo\",\"lectern\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:main/feature/limbo/player/secrets/lectern"
+    },
+    "parent": "lobby:detect/root"
+}

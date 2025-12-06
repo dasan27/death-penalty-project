@@ -1,0 +1,2 @@
+$data merge storage pdm:player {main:{$(id):{vault:{resource:{gold:0,ray:0,xp:0,lvl:0},skin:{collar:["default"],anim:["default"],knife:["default"],revolver:["default"],suit:["default"]}},stat:{win:0,play:0,advancement:0},inv:{collar:"default",knife:"default",revolver:"default",anim:"default",suit:"default"},saved:{music_disc:{owned:["13","cat","blocks","chirp","far","mall","mellohi","stal","strad","ward","wait"],next:0}},game_data:{}}}}
+$execute store result storage pdm:player main.$(id).data_version int 1 run scoreboard players get .data_version server

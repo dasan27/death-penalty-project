@@ -1,0 +1,2 @@
+$function core:admin/gui/gamerules/editar/main {regla:".queue_hard_min",valor:$(valor),nombre:"jugadores minimos para iniciar la partida",v0:1,v1:32}
+execute if score .queue_state lobby matches 1 run function lobby:queue/main/data

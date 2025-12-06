@@ -1,0 +1,1 @@
+execute unless entity @a[tag=lobby.featured_shop] run function lobby:featured-shop/default

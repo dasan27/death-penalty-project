@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.misc.shoot_range.far.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.misc.shoot_range.far.desc",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/shoot_range/hit"
+}

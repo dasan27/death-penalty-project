@@ -1,0 +1,2 @@
+execute if data storage pdm:game {main:{live:{experiment:{current:{custom_data:{void_hazard:{enabled:true}}}}}}} run function game:experiment/core/template/player/fell_in_void with storage pdm:game main.live.experiment.current.custom_data.void_hazard
+function core:player/msg/actionbar/generic/confirmar {id:"game.announcement.enter_game_room_periodic.waiting"}

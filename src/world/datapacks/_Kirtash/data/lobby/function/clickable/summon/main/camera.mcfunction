@@ -1,0 +1,1 @@
+summon minecraft:interaction -14.4 59.2 12.50 {Tags: ["lobby","camera"] ,width:0.8,height:1.3, response:true}

@@ -1,0 +1,1 @@
+$title @s actionbar [{text:"\uE007 "},{translate:"$(id)",color:"#0069aa"}]

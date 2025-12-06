@@ -1,0 +1,1 @@
+$execute store result score @s database run data get storage pdm:player main.$(id).$(path)$(n) 1

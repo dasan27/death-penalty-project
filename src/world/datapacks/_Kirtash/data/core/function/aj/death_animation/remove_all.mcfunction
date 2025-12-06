@@ -1,0 +1,1 @@
+execute as @e[tag=aj.death_animation.root] run function core:aj/main/remove_visually

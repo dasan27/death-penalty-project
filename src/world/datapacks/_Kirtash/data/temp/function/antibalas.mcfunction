@@ -1,0 +1,1 @@
+item replace entity @s armor.chest with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"chest",asset_id:"vest",swappable:true},item_model="icon/vest",item_name={"color":"red","translate":"game.item.vest"}] 1

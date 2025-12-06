@@ -1,0 +1,1 @@
+$playsound entity.arrow.hit_player master @s -21 59 -2 10 $(pitch) 1 

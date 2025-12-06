@@ -1,0 +1,12 @@
+{
+    "values": [
+      "minecraft:text_display",
+      "minecraft:painting",
+      "minecraft:interaction",
+      "item_display",
+      "block_display",
+      "minecraft:item_frame",
+      "minecart",
+      "armor_stand"
+    ]
+  }

@@ -1,0 +1,1 @@
+$item replace entity @s armor.head with iron_hoe[enchantment_glint_override=false,enchantments={binding_curse:1},equippable={slot:head},unbreakable={},item_model="collar/$(render)/explode",tooltip_display={hide_tooltip:true}]

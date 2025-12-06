@@ -1,0 +1,2 @@
+tellraw @s "\n\n\n"
+tellraw @s [{text:"\uE003 ",click_event:{action:"run_command",command:"/trigger trigger.lobby set 10"}},{translate:"gui.options.audio.show_transcription.opt",color:"gray"},{text:" "},{translate:"gui.options.generic.button.enable",color:"dark_green",click_event:{action:"run_command",command:"/trigger trigger.lobby set 10"}},{text:" "},{translate:"gui.options.generic.button.disable",color:"red",click_event:{action:"run_command",command:"/trigger trigger.lobby set 11"}}]

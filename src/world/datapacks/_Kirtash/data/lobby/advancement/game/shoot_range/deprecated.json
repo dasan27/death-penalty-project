@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.misc.shoot_range.main.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.misc.shoot_range.main.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:stone",
+            "components": {
+                "minecraft:item_model": "game-item/bullet/colt"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

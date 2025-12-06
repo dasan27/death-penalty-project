@@ -1,0 +1,3 @@
+summon text_display ~ ~1.55 ~ {billboard:"center",Tags:["victor_display","lobby"],text:{"color":gold,text:"👑"}}
+$summon text_display ~ ~1.3 ~ {billboard:"center",shadow:1b,Tags:["victor_display","lobby"],text:{bold:true,color:white,text:"$(name)",shadow_color:-9408400}}
+$summon text_display ~ ~1 ~ {billboard:"center",shadow:1b,Tags:["victor_display","lobby"],text:[{color:red,shadow_color:-13224394,translate:"game.display.lobby.victor"},{"color":gray,shadow_color:-13224394,text:" #$(pdm_id)"}]}

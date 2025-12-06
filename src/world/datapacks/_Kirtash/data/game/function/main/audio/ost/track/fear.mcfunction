@@ -1,0 +1,1 @@
+function game:main/audio/ost/play {id:"fear",name:"Fear",author:"_Kirtash"}

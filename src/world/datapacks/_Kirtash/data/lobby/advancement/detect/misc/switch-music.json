@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "player": {
+            "flags": {
+              "is_sneaking": false
+            },
+            "slots": {
+            "weapon.mainhand": {
+              "items": "air"
+            }
+          }
+          },
+                "entity": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "interaction",
+                            "nbt": "{Tags:[\"jukebox\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:clickable/trigger/misc/switch-music"
+    },
+    "parent": "lobby:detect/root"
+}

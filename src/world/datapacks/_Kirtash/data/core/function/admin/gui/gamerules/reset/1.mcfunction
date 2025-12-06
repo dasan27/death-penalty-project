@@ -1,0 +1,1 @@
+tellraw @s [{text:"\uE003"},{text:" Restablecer reglas del juego a los valores predeterminados ",color:"#546e7a"},{text:"[Confirmar]",color:"green",click_event:{action:"run_command",command:"/function core:admin/gui/gamerules/reset/2"}}]

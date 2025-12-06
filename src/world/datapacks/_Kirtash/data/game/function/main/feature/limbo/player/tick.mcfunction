@@ -1,0 +1,1 @@
+execute if predicate game:main/feature/limbo/void run function game:main/feature/limbo/player/void

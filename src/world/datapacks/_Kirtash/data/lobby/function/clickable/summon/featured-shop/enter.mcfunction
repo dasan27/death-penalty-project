@@ -1,0 +1,1 @@
+summon minecraft:interaction -21.99 57 6.3 {response:true, Tags: [enter_shop,lobby], height: 2f, width: 2f}

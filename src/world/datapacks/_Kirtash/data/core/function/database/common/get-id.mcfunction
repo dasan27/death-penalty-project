@@ -1,0 +1,1 @@
+function core:database/common/store-id {"storage":"pdm:temp","path":"main.id"}

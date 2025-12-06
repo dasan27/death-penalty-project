@@ -1,0 +1,1 @@
+function core:block_physics/remove {"id":"gameroomdoor"}

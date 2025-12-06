@@ -1,0 +1,2 @@
+resourcepack/* filter=lfs diff=lfs merge=lfs -text
+resourcepack/** filter=lfs diff=lfs merge=lfs -text

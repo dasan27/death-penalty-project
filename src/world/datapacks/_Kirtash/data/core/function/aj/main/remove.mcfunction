@@ -1,0 +1,1 @@
+function animated_java:global/remove/everything

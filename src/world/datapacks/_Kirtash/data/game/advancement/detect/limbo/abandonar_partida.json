@@ -1,0 +1,20 @@
+{
+    "parent": "game:detect/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:custom_data": {
+                "gui": "abandonar_partida"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "game:main/feature/limbo/player/leave"
+    }
+}

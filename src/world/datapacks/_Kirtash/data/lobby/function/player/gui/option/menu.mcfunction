@@ -1,0 +1,6 @@
+tellraw @s [{text:"\uE003 "},{translate:"gui.book.option",bold:true,underlined:true,color:"#455A64"}]
+tellraw @s [{text:"\n"},{translate:"gui.options.audio_files",color:gray,click_event:{action:run_command,command:"/trigger trigger.lobby set 5"}}]
+tellraw @s [{translate:"gui.options.show_transcription",color:yellow,click_event:{action:run_command,command:"/trigger trigger.lobby set 6"}}]
+tellraw @s [{text:"\n"},{translate:"gui.options.credits",color:green,click_event:{action:run_command,command:"/trigger trigger.lobby set 14"}}]
+tellraw @s [{text:"\n"},{translate:"gui.options.default_button",color:"#ff9100",click_event:{action:run_command,command:"/trigger trigger.lobby set 15"}}]
+tellraw @s [{translate:"gui.options.remove",color:red,click_event:{action:run_command,command:"/trigger trigger.lobby set 7"}}]

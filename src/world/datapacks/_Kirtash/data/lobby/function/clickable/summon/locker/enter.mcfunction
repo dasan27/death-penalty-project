@@ -1,0 +1,1 @@
+summon minecraft:interaction -21.99 57 27 {response:true, Tags: [enter_locker,lobby], height: 2f, width: 2f}

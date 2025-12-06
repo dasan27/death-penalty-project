@@ -1,0 +1,1 @@
+$execute unless entity @a[scores={experiment=$(score)},predicate=game:main/player/alive] run function $(function)

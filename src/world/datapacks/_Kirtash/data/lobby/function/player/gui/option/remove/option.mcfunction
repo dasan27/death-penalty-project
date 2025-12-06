@@ -1,0 +1,2 @@
+tellraw @s "\n\n\n"
+tellraw @s [{text:"\uE008 "},{translate:"gui.options.remove_confirm",color:"gray"},{translate:"gui.options.button.remove",color:"red",click_event:{action:"run_command",command:"/trigger trigger.lobby set 12"}}]

@@ -1,0 +1,1 @@
+$function game:experiment/all/$(start_function)

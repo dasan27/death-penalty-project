@@ -1,0 +1,1 @@
+execute as @e[type=shulker,tag=elevator,tag=physicsBlock,tag=barrier] at @s run tp @s ~ ~2 ~

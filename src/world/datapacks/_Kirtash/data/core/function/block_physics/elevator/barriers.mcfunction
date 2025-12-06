@@ -1,0 +1,1 @@
+summon minecraft:shulker ~ ~ ~ {Tags:[collisionShulker,physicsBlock,elevator,barrier],NoAI:1b,Invulnerable:1b,Silent:1b,NoGravity:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}]}

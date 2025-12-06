@@ -1,0 +1,1 @@
+$summon minecraft:interaction ~ ~ ~ {response:true, Tags: ["jukebox","lobby","id_$(id)","locker"], height: 1.1f, width: 1.1f}

@@ -1,0 +1,1 @@
+function core:player/state/reset/main

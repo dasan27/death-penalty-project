@@ -1,0 +1,1 @@
+$function core:database/common/player/in-string {"id":"$(id)","path":"vault.skin.revolver","value":"colt","op":"append","n":""}

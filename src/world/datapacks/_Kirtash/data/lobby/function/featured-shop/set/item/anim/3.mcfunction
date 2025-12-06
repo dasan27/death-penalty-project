@@ -1,0 +1,2 @@
+$data modify storage pdm:temp main.shop.setup.items.anim.$(itemID).rotation set from storage pdm:temp main.shop.setup.rotation
+$execute positioned ~ ~ ~ run function lobby:featured-shop/set/item/anim/summon with storage pdm:temp main.shop.setup.items.anim.$(itemID)

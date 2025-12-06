@@ -1,0 +1,1 @@
+$tellraw @s [{text:"\uE007"},{text:" "},{translate:"$(id)",color:"#0069aa"}]

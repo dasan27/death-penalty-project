@@ -1,0 +1,2 @@
+$function core:admin/gui/gamerules/editar/main {regla:".queue_start_%",valor:$(valor),nombre:"% de jugadores para iniciar la partida",v0:1,v1:100}
+execute if score .queue_state lobby matches 1 run function lobby:queue/main/data

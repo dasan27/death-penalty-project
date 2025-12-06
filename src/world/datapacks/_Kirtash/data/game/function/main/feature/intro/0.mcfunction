@@ -1,0 +1,1 @@
+execute as @a[tag=game] run function game:main/audio/ost/track/fear

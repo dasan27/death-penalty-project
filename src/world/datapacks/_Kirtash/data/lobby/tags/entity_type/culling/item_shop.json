@@ -1,0 +1,9 @@
+{
+    "values": [
+      "minecraft:interaction",
+      "minecraft:item_frame",
+      "armor_stand",
+      "text_display",
+      "item_display"
+    ]
+  }

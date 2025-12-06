@@ -1,0 +1,3 @@
+$item replace entity @s armor.chest with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"chest",asset_id:"mono/$(color)"},item_model="icon/mono",minecraft:custom_data={color_mono:"$(color)"}] 1
+$item replace entity @s armor.legs with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"legs"},item_model="icon/mono",minecraft:custom_data={color_mono:"$(color)"}] 1
+$item replace entity @s armor.feet with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"feet",asset_id:"mono/$(color)"},item_model="icon/mono",minecraft:custom_data={color_mono:"$(color)"}] 1

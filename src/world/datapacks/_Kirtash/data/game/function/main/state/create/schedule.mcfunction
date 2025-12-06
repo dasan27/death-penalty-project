@@ -1,0 +1,1 @@
+schedule function game:main/schedule/event/player_check 60s

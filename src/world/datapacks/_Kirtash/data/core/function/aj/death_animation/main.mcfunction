@@ -1,0 +1,2 @@
+$execute at @s run function core:aj/death_animation/raycast {color:"$(color)"}
+execute as @e[tag=aj.death_animation.root,tag=!kirtash.played] run function animated_java:death_animation/animations/die/play

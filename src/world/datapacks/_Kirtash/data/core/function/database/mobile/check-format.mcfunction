@@ -1,0 +1,1 @@
+execute store result score #datverfile math.operation run data get block 1 57 2 Items[{Slot:13b}].components.minecraft:custom_data.data_version

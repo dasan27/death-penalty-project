@@ -1,0 +1,1 @@
+tellraw @s [{text:"\uE013 "},{translate:"misc.discord",color:"#5464b1",click_event:{action:"open_url",url:"https://discord.com/invite/AxSrn4NQbC"}}]

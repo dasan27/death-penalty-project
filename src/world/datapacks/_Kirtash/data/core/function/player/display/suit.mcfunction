@@ -1,0 +1,4 @@
+execute if entity @s[tag=lobby] unless score .display_suit_in_lobby gamerule matches 1 run return fail
+$item replace entity @s armor.chest with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"chest",asset_id:"mono/$(render)"},item_model="icon/mono",minecraft:custom_data={color_mono:"$(render)"},enchantments={binding_curse:1},enchantment_glint_override=false] 1
+$item replace entity @s armor.legs with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"legs"},item_model="icon/mono",minecraft:custom_data={color_mono:"$(render)"},enchantments={binding_curse:1},enchantment_glint_override=false] 1
+$item replace entity @s armor.feet with barrier[tooltip_display={hide_tooltip:true},equippable={slot:"feet",asset_id:"mono/$(render)"},item_model="icon/mono",minecraft:custom_data={color_mono:"$(render)"},enchantments={binding_curse:1},enchantment_glint_override=false] 1

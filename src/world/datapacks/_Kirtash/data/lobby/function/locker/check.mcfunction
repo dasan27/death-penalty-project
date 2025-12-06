@@ -1,0 +1,1 @@
+execute unless entity @a[tag=lobby.locker] run function lobby:locker/default

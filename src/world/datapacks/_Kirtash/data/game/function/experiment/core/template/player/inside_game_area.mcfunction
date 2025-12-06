@@ -1,0 +1,1 @@
+$execute as @a[predicate=game:main/player/alive] at @s $(condition) entity @s[x=-79,dx=-46,y=37,dy=33,z=36,dz=46] run function $(function)

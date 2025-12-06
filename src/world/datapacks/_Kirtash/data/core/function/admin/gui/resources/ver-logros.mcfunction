@@ -1,0 +1,1 @@
+$tellraw @s [{text:"Logros de ",color:"green"},{text:"$(name), ID: $(id)",color:"gray"},{text:"\n"},{nbt:"main.$(id).saved.advancement",storage:"pdm:player",color:white}]

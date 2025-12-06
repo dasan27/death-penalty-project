@@ -1,0 +1,2 @@
+execute if score .online_mode server matches 1 run return run function core:admin/msg/prohibido
+tellraw @s [{text:"\uE008",color:dark_red},{text:" Se eliminarán todos los datos de los jugadores y partidas, todos los objetivos y reglas del juego volverán a sus valores predeterminados. El juego tiene que estar congelado y el modo online desactivado para poder realizar esta acción ",color:"gray"},{text:"[Confirmar]",color:dark_red,click_event:{action:"run_command",command:"/function core:admin/zdanger_zone/factory_reset"}}]

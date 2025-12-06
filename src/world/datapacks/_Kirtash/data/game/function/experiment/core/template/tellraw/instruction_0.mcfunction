@@ -1,0 +1,2 @@
+$execute as @a[predicate=game:main/player/display] run function game:main/audio/narrator/play {id:"experiment/$(id)/intro"}
+$tellraw @a[predicate=game:main/player/display] ["",{color:"#891e2b",translate:"experiment.$(id).title",bold:true},"\n\n\uE007 ",{color:"#0069aa",translate:"experiment.$(id).rule_0"},"\n\n\uE008 ",{color:"#fec62d",translate:"experiment.$(id).rule_1"}]

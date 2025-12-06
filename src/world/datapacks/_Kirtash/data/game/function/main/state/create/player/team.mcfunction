@@ -1,0 +1,1 @@
+team join game.default

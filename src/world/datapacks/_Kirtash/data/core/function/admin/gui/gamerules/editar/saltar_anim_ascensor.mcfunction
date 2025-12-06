@@ -1,0 +1,1 @@
+$function core:admin/gui/gamerules/editar/main {regla:".skip_elevator_anim",valor:$(valor),nombre:"Actualizar version del cliente",v0:0,v1:1}

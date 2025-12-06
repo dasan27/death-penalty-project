@@ -1,0 +1,1 @@
+$execute as @a[predicate=game:main/player/alive] at @s if entity @s[y=$(y),dy=-1] run function game:main/player/misc/silent_death

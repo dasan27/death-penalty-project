@@ -1,0 +1,1 @@
+execute if score @s game.explode_timer matches 1.. run function game:main/player/main/explode_timer/countdown

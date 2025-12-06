@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.misc.tutorial.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.misc.tutorial.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "item_model": "icon/record",
+                "custom_data":{
+                    "right_click":"tutorial_1"
+                }
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "core:game"
+}

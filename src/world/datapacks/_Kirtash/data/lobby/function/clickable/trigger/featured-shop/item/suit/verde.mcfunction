@@ -1,0 +1,1 @@
+function lobby:clickable/trigger/featured-shop/item/suit/main {"id":"verde"}

@@ -1,0 +1,1 @@
+tag @s[scores={game=1}] add game.invulnerable

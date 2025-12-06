@@ -1,0 +1,1 @@
+execute as @a[tag=lobby.queue] run function game:main/state/create/player/main

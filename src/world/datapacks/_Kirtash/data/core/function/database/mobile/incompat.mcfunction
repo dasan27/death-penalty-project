@@ -1,0 +1,2 @@
+tellraw @a[tag=OP] [{"translate":"server.title.server"},{"text":" El formato de datos del guardado no es compatible","color":"dark_red"},{"text":"\n"},{"text":"Formato actual: ","color":"gray"},{"score":{"name":".data_version","objective":"server"},"bold":true,"color":"#09fb3d"},{"text":" / Formato de la copia: ","color":"gray"},{"score":{"name":"#datverfile","objective":"math.operation"},"bold":true,"color":"yellow"}]
+execute if data block 1 57 2 Items[{Slot:13b}].components.minecraft:custom_data.PDMplayers run function core:database/mobile/modify-save-incompat

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.shop.buyItem.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.shop.buyItem.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/main"
+}

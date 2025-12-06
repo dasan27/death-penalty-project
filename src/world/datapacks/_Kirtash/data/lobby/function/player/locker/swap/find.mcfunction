@@ -1,0 +1,2 @@
+$data modify storage pdm:temp main.player.displayInv.item set from storage pdm:player main.$(id).vault.skin.$(type)[$(current)]
+function lobby:player/locker/swap/set with storage pdm:temp main.player.displayInv

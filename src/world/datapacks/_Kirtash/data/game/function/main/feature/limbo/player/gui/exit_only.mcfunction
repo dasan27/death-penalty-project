@@ -1,0 +1,1 @@
+item replace entity @s hotbar.4 with barrier[item_model="icon/boton_gui",custom_data={"gui":"abandonar_partida"},consumable={consume_seconds:1,animation:"none",has_consume_particles:false},item_name={translate:"game.gui.abandonar_partida"}]

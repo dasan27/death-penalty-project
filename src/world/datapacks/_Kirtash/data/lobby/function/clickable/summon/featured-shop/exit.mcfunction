@@ -1,0 +1,1 @@
+summon minecraft:interaction ~ ~ ~ {response:true, Tags: ["exit",featured_shop,"lobby"], height: 2f, width: 1f}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.shop.fullInv.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.shop.fullInv.desc",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "id": "minecraft:yellow_bundle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/shop/buy"
+}

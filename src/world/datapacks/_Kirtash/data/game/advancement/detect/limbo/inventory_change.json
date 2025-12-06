@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "predicate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[game.dead.limbo]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "game:main/feature/limbo/player/gui/inventory_change"
+  }
+}

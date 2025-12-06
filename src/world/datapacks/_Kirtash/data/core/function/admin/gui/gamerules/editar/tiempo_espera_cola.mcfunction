@@ -1,0 +1,1 @@
+$function core:admin/gui/gamerules/editar/main {regla:".queue_wait_time",valor:$(valor),nombre:"Tiempo adicional de la cola",v0:1,v1:256}

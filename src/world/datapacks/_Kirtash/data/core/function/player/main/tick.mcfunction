@@ -1,0 +1,1 @@
+execute if score @s minecraft.leave_game matches 1.. run function core:player/main/left_game

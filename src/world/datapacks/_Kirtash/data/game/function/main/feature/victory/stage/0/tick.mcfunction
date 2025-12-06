@@ -1,0 +1,1 @@
+execute as @p[tag=game,scores={game=1}] if predicate game:main/feature/victory/stage_0 run function game:main/feature/victory/stage/1/start

@@ -1,0 +1,1 @@
+$function game:main/player/data/in/get {path:"$(path)",op:"set",value:$(value)}

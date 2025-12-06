@@ -1,0 +1,1 @@
+$execute as @n[type=armor_stand,tag=locker,tag=id_$(id)] at @s run function lobby:player/locker/swap/armor_stand/change with storage pdm:temp main.player.displayInv

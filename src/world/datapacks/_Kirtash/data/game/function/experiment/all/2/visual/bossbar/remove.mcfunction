@@ -1,0 +1,1 @@
+bossbar remove game:experiment

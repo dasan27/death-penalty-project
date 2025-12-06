@@ -1,0 +1,1 @@
+$function core:admin/gui/gamerules/editar/main {regla:".skip_tutorial",valor:$(valor),nombre:"Saltar tutorial",v0:0,v1:1}

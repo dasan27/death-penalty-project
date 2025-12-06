@@ -1,0 +1,1 @@
+$data modify entity @s equipment.offhand.components.minecraft:item_model set value "weapon/knife/$(item)"

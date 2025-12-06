@@ -1,0 +1,1 @@
+$tellraw @a ["",{text:"[DEBUG]",bold:true,color:"yellow"},{text:" EventListener -> "},{text:"game_stage is now ",color:"gray"},{text:"$(id) ",color:"red"},{text:"id: ",color:"gray"},{score:{name:".stage",objective:"game"},color:"green"}]

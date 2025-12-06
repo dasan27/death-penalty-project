@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.lobby.main.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.lobby.main.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:bookshelf"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "core:game"
+}

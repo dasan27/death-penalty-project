@@ -1,0 +1,1 @@
+execute at @s unless predicate lobby:generic/in_elevator run function lobby:queue/player/exit

@@ -1,0 +1,15 @@
+setblock ~ ~ ~ air
+setblock ~ 58 ~ light[level=8]
+$summon armor_stand ~ ~ ~ {Rotation:[$(rotation)f , 0f],Tags:["featured_shop","lobby"],Invulnerable:1b}
+$summon interaction ~ ~ ~ {response:true, Tags: ["PlayerClick","featured_shop","lobby","buy_anim.$(id)"], height: 2f, width: .6f}
+$summon text_display ~ ~1.8 ~ {view_range:0.04f,billboard:"vertical",see_through:1b,Tags:[featured_shop,lobby],text:[{text:"$",color:"#60636d"},{text:"$(price)","color":"#ffa119"}]}
+
+$summon item_display ~ ~.7 ~.7 {Tags:["featured_shop","lobby"],transformation:{left_rotation:[.5f,0f,0f,1f],right_rotation:[1f,0f,.5f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_1)",count:1},CustomName:"1",CustomNameVisible:false}
+$summon item_display ~-.69 ~.68 ~ {Tags:["featured_shop","lobby"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[1f,0f,.5f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_3)",count:1},CustomName:"2",CustomNameVisible:false}
+$summon item_display ~.69 ~.68 ~ {Tags:["featured_shop","lobby"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[1f,0f,.5f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_3)",count:1},CustomName:"2",CustomNameVisible:false}
+$summon item_display ~ ~2.3 ~ {Tags:["featured_shop","lobby"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[.3f,0f,.5f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_6)",count:1},CustomName:"3",CustomNameVisible:false}
+$summon item_display ~ ~1.2 ~-.5 {Tags:["featured_shop","lobby"],transformation:{left_rotation:[.2f,.5f,0f,1f],right_rotation:[.8f,0f,.3f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_5)",count:1},CustomName:"4",CustomNameVisible:false}
+$summon item_display ~.69 ~ ~ {Tags:["featured_shop","lobby"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[1f,0f,0f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_2)",count:1},CustomName:"5",CustomNameVisible:false}
+$summon item_display ~-.69 ~ ~ {Tags:["featured_shop","lobby"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[1f,0f,0f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_2)",count:1},CustomName:"5",CustomNameVisible:false}
+$summon item_display ~.6 ~.5 ~.6 {Tags:["featured_shop","lobby"],transformation:{left_rotation:[.1f,.3f,.8f,1f],right_rotation:[1f,.2f,.4f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_4)",count:1},CustomName:"6",CustomNameVisible:false}
+$summon item_display ~-.6 ~.5 ~-.6 {Tags:["featured_shop","lobby"],transformation:{left_rotation:[.1f,.3f,.8f,1f],right_rotation:[1f,.2f,.4f,1f],translation:[0f,0f,0f],scale:[.4f,.4f,.4f]},item:{id:"minecraft:$(disp_4)",count:1},CustomName:"6",CustomNameVisible:false}

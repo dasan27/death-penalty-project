@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "very_cross": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"lobby.shoot_range\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:shoot_range/player/shoot/main"
+    }
+}

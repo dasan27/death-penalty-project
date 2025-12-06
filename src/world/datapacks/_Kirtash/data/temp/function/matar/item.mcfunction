@@ -1,0 +1,1 @@
+give @s stick[custom_data={"admin":"kill_stick"},custom_name={text:"Tung tung tung sahur",color:"#3f0101",bold:true,italic:true,shadow_color:0},consumable={consume_seconds:99999,animation:none,sound:"minecraft:item.trident.throw"},enchantment_glint_override=true]

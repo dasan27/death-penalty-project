@@ -1,0 +1,2 @@
+execute if score $players lobby.queue < .start_min lobby.queue run function lobby:queue/countdown/stop
+execute if score $players lobby.queue = $in_game lobby.queue run function lobby:queue/countdown/full

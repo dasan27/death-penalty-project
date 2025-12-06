@@ -1,0 +1,1 @@
+team modify game.default nametagVisibility hideForOwnTeam

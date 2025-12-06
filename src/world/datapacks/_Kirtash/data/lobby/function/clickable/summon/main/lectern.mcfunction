@@ -1,0 +1,1 @@
+summon minecraft:interaction -29 57 17 {response:true, Tags: ["lobby","gui"], height: 1.4f, width: 1.1f}

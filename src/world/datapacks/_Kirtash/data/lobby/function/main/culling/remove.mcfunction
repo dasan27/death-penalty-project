@@ -1,0 +1,1 @@
+kill @e[type=#lobby:culling/all,tag=lobby]

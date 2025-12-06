@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.misc.discover_music_disc.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.misc.discover_music_disc.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:disc_fragment_5"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/misc/play_music"
+}

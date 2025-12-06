@@ -1,0 +1,1 @@
+$tellraw @p ["",{"text":"-- Selected experiment -- ","bold":true,"color":"green"},{"text":"\n"},{"text":"Player: ","color":"gray"},{"text":"$(player)","italic":true},{"text":"\n"},{"text":"ID: ","color":"yellow"},{"text":"$(id)"},{"text":"\n"},{"text":"Tellraw: ","bold":true,"color":"blue"},{"translate":"game.experiment.$(id)"},{"text":" [$(unicode)], $(price)$"}]

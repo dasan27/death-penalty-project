@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.misc.discover_all_music_disc.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.misc.discover_all_music_disc.desc",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "id": "minecraft:music_disc_5"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/misc/discover_music_disc"
+}

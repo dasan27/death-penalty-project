@@ -1,0 +1,2 @@
+execute if function game:experiment/all/2/end_criteria/check_murderer_kills run return run function core:player/msg/actionbar/generic/confirmar {id:"game.passed_experiment"}
+title @s actionbar [{text:"\uE002"},{text:" "},{translate:"experiment.2.display.kills_left",color:"#ef7474",with:[{score:{name:"#kills_req",objective:experiment},color:"#ffffff"}]}]

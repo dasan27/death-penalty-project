@@ -1,0 +1,1 @@
+$function core:admin/gui/gamerules/editar/main {regla:".skip_game_intro",valor:$(valor),nombre:"Saltar intro de la partida",v0:0,v1:1}

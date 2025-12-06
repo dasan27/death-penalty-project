@@ -1,0 +1,1 @@
+execute as @a[tag=game,scores={game=1}] at @s run playsound minecraft:block.iron_door.close ambient @s ~ ~ ~ 1 2 1

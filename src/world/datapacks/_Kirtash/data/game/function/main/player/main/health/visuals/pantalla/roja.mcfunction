@@ -1,0 +1,1 @@
+item replace entity @s armor.head with pumpkin[equippable={camera_overlay:"block/dirt",slot:head}]

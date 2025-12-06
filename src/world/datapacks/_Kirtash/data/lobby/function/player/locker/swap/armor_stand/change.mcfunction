@@ -1,0 +1,1 @@
+$function lobby:player/locker/swap/armor_stand/modify/$(type) with storage pdm:temp main.player.displayInv

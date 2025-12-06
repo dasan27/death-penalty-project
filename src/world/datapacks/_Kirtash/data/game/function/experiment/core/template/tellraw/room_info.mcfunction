@@ -1,0 +1,1 @@
+$tellraw @a[predicate=game:main/player/display] [{text:"\uE016 "},{"translate":experiment.generic.structure_title,color:"#1f82a7",with:[{translate:experiment.$(id).room_title,color:"#b8bdbe"},{translate:experiment.$(id).room_builder,color:"#b8bdbe"}]}]

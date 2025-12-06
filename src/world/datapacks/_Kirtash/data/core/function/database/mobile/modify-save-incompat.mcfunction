@@ -1,0 +1,2 @@
+$item modify block 1 57 2 container.13 {"function":"minecraft:set_lore","lore":[{"text":"Guardado hace ","italic":false,"color":"gray"},{"text":"$(timeSinceSave)","italic":false,"color":"yellow"},{"text":"minutos","italic":false,"color":"gray"},{"text":"\nVersión de los datos: $(datverfile) [INCOMPATIBLE]","italic":true,"color":"red"}],"mode":"replace_all"}
+item modify block 1 57 2 container.13 {"function":"minecraft:set_item",item:"bone_meal"}

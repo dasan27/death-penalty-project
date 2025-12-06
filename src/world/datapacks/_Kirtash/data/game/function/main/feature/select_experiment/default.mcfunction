@@ -1,0 +1,1 @@
+schedule clear game:main/select/experiment/main

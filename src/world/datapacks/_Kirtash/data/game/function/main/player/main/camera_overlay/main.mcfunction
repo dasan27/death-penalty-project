@@ -1,0 +1,1 @@
+$item modify entity @s armor.head {"function":"set_components","components":{"minecraft:equippable":{"slot":"head","camera_overlay":"$(path)"}}}

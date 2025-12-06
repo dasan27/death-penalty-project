@@ -1,0 +1,2 @@
+execute if score .locker_count lobby matches 7.. run function core:player/msg/tellraw/generic/aviso {"id":"locker.error.exceso"}
+execute unless score .locker_count lobby matches 7.. run function lobby:player/locker/join

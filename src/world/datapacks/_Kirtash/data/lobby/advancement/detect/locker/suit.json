@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "interaction",
+                            "nbt": "{Tags:[\"locker\",\"swapInv_suit\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:clickable/trigger/locker/swap/suit"
+    },
+    "parent": "lobby:detect/root"
+}

@@ -1,0 +1,3 @@
+summon minecraft:item_frame -30 58.1 20 {Tags:["lobby","enter_range"],Facing: 1b, ItemRotation: 7b, Item: {components: {"minecraft:item_model": "weapon/revolver/default"}, count: 1, id: "minecraft:stick"}, Invisible: 1b}
+summon minecraft:interaction -30 58 20 {response:true, Tags: ["lobby","enter_range"], width:.8,height:.2}
+#summon text_display -30 59 20 {view_range:0.03f,billboard:"vertical",Tags:["lobby","enter_range"],text:{"color":"#51535d",translate:"lobby.shoot_range.join",bold:false}}

@@ -1,0 +1,2 @@
+execute unless score $timer_sec experiment matches 0..9 run return run bossbar set game:experiment name [{text:"0",color:"#891e2b"},{score:{name:"$timer_min",objective:experiment},color:"#891e2b"},{text:":",color:"#51535d"},{score:{name:"$timer_sec",objective:experiment},color:"#891e2b"}]
+bossbar set game:experiment name [{text:"0",color:"#891e2b"},{score:{name:"$timer_min",objective:experiment},color:"#891e2b"},{text:":",color:"#51535d"},{text:"0",color:"#891e2b"},{score:{name:"$timer_sec",objective:experiment},color:"#891e2b"}]

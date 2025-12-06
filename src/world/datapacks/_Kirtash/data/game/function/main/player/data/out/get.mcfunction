@@ -1,0 +1,2 @@
+$data modify storage pdm:temp main.player.out set from storage pdm:player main.$(id).game_data.$(path)
+$execute store result score @s database run data get storage pdm:player main.$(id).game_data.$(path)

@@ -1,0 +1,2 @@
+$data modify storage pdm:game main.live.roll.list append value $(id)
+$data merge storage pdm:game {main:{live:{roll:{data:{$(id):{name:"$(name)",icon:"$(icon)",color:"$(color)",availible:$(availible)}}}}}}

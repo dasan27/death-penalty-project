@@ -1,0 +1,1 @@
+$function core:admin/gui/gamerules/editar/main {regla:".display_suit_in_lobby",valor:$(valor),nombre:"Mostrar trajes en el lobby",v0:0,v1:1}

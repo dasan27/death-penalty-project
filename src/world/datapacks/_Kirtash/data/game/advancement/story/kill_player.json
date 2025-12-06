@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.game.kill_player.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.game.kill_player.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:barrier",
+            "components": {
+                "item_model": "weapon/knife/default"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "game:story/main"
+}

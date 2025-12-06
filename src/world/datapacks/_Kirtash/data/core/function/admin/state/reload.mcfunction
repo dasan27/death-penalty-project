@@ -1,0 +1,2 @@
+execute as @a[tag=OP] run function core:admin/gui/give
+tellraw @s [{translate:"server.title.server"},{text:" El juego se ha recargado.",color:green},{text:" Versión de los datos: ",color:gray},{score:{name:".data_version",objective:"server"},color:blue}]

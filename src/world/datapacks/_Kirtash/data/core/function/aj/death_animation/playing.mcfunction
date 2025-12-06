@@ -1,0 +1,1 @@
+tag @n[tag=aj.death_animation.root] add kirtash.played

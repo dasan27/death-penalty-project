@@ -1,0 +1,1 @@
+$summon text_display ~ ~2 ~ {see_through:1b,text:"type: $(type) .. id: $(id) .. path: $(path) .. rotation $(rotation)",Tags:["featured_shop"]}

@@ -1,0 +1,1 @@
+$execute store result storage $(storage) $(path) int 1 run scoreboard players get @s PlayerID

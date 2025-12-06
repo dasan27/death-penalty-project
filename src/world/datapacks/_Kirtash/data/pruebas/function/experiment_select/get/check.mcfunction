@@ -1,0 +1,2 @@
+execute if data storage pdm:game main.experiment.force[0] run function pruebas:experiment_select/get/1
+execute unless data storage pdm:game main.experiment.force[0] run tellraw @s {"translate":"experiment.force.error.queue_empty","color":"red"}

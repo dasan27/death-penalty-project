@@ -1,0 +1,28 @@
+0. Choose a unique integer between 0 and 255, we will be refering as this as (ID)
+1. Add a file called (ID).mcfunction in game:experiment/core/get_data/HERE -> Here you must set the experiment data
+2. Add a file called (ID).mcfunction in game:experiment/core/start/id/HERE -> Here you will run experiment-specific start instructions
+3. Add a file called (ID).mcfunction in game:experiment/core/tick/HERE -> This is the function that will be running every game tick while the experiment is playing
+4. Go to game:main/select/experiment/setup/data and insert a new line containing the selection info for this new experiment
+5. If needed, add a structure file in game:game_area(ID) or game:experiment/(ID) depending on the experiment tipe.
+6. Create a new folder in game:experiment/all/HERE called (ID), here you can build all the experiment code
+7. Add a file called (ID).mcfunction in game:experiment/core/default/experiment/HERE -> You must code the needed to reset an experiment
+
+
+TEMPLATES
+custom_data
+- empty: first function to call, only argument is {id:i}, builds the nbt path.  
+- everyone_plays: sets the availible player pool when calling a player roll to all players that score 1 in "experiment" scoreboard
+- no_structure: keeps the experiment/game_area structure to default
+- structure: sets an experiment/game_area structure that will use the path game:game_area/* or game:experiment/* when the template start/uses_game_area or start/uses_experiment_area are called
+predicate
+- player_requirement: will call a function when the player criteria (only counts players with the predicate player/experiment) is NOT met
+    - anyone_scores: {score:i/"string",function:"string"} fails if a minimum of 1 player mets the score
+    - scores_n {score:i/"string",function:"string",n:i} fails if the players that met the score are = or > than n
+roll
+- custom_start: {function:"string"} will save the function to call when the roll ends to game:experiment/all/* , players in the roll are selected from the pool of pdm:game/live.experiment.data.current.selector
+- output: {id:i,function:"string"} "id" must be inherited from a function called from roll/stop using roll.selected nbt path, "function" will be the run as the player that matches "id"
+start
+- uses_experiment_area: with storage pdm:game main.live.experiment.current | sets the structure for the experiment experiment_area
+- uses_game_area: with storage pdm:game main.live.experiment.current | sets the structure for the experiment game_area, creates a phys_block for the game_area door and removes the bedrock obscurer
+tellraw
+- instruction_0 {id:i} displays a chat message using the translate strings experiment.id.title, experiment.id.rule_0, experiment.id.rule_1 and plays the sound experiment/id/intro to all display targets

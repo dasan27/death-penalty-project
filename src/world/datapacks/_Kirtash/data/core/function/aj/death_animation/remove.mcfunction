@@ -1,0 +1,1 @@
+execute as @n[tag=aj.death_animation.root] run function animated_java:death_animation/remove/this

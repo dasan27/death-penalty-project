@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "interaction",
+                            "nbt": "{Tags:[\"lobby\",\"buy_collar.vater\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:clickable/trigger/featured-shop/item/collar/vater"
+    },
+    "parent": "lobby:detect/root"
+}

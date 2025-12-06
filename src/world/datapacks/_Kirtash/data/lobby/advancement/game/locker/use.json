@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.locker.use.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.locker.use.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:armor_stand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/main"
+}

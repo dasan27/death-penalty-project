@@ -1,0 +1,2 @@
+execute if score .online_mode server matches 1 run return run function core:admin/msg/error
+tellraw @s ["",{text:"=====[ Eliminar datos de un jugador ]=====",color:"red"},{text:"\n"},{text:"\n"},{text:"* ",color:"gray"},{text:"[ Jugador en línea ]",color:"dark_gray",click_event:{action:"suggest_command",command:"/function core:admin/gui/eliminar_jugador/online {nombre:}"}},{text:"\n"},{text:"* ",color:"gray"},{text:"[ Jugador desconectado ]",color:"dark_gray",click_event:{action:"suggest_command",command:"/function core:admin/gui/eliminar_jugador/offline {nombre:}"}}]

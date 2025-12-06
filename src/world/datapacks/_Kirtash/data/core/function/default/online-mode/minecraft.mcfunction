@@ -1,0 +1,4 @@
+gamerule reducedDebugInfo true
+gamerule sendCommandFeedback false
+gamerule showDeathMessages false
+gamerule logAdminCommands false

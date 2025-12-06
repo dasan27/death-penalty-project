@@ -1,0 +1,2 @@
+schedule function game:experiment/all/2/visual/murderer_actionbar/schedule 2s
+execute as @a[predicate=game:main/player/alive,scores={experiment=2}] run function game:experiment/all/2/visual/murderer_actionbar/display

@@ -1,0 +1,1 @@
+$give @s stick[item_model="icon/record",custom_data={"right_click":"$(id)"},consumable={consume_seconds:1,animation:"none",has_consume_particles:false}] 1

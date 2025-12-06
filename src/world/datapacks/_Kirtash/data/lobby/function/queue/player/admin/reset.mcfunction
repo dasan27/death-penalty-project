@@ -1,0 +1,2 @@
+execute unless score .queue_state lobby matches 1 run return run clear @s written_book[custom_data={pdm:queue_control}]
+tellraw @s [{text:"\uE008"},{text:" Se detendrá el inicio de partida actual ",color:"gray"},{text:"[Confirmar]",color:"#E1B435",click_event:{action:"run_command",command:"/function lobby:queue/state/reset"}}]

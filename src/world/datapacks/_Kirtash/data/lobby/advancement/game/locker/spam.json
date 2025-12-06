@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.locker.spam.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.locker.spam.desc",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "id": "minecraft:light_gray_banner",
+            "components": {
+                "minecraft:banner_patterns": [
+                    {
+                        "pattern": "stripe_downleft",
+                        "color": "white"
+                    },
+                    {
+                        "pattern": "gradient_up",
+                        "color": "light_blue"
+                    },
+                    {
+                        "pattern": "gradient",
+                        "color": "white"
+                    }
+                ]
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/locker/use"
+}

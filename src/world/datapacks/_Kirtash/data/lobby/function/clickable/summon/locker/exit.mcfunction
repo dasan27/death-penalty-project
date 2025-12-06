@@ -1,0 +1,1 @@
+$summon minecraft:interaction ~ ~ ~ {response:true, Tags: ["locker","exit","id_$(id)","lobby"], height: 2f, width: 1f}

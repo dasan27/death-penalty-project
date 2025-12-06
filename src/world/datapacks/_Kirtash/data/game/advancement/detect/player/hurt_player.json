@@ -1,0 +1,16 @@
+{
+  "parent": "game:detect/root",
+  "criteria": {
+    "PlayerHurtPlayer": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "game:main/player/main/track_player_damage/save/trigger"
+  }
+}

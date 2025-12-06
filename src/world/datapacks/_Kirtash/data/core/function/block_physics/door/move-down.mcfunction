@@ -1,0 +1,1 @@
+function core:block_physics/move {"id":"gameroomdoor","x":"0","y":"-0.05","z":"0"}

@@ -1,0 +1,1 @@
+team modify game.default friendlyFire true

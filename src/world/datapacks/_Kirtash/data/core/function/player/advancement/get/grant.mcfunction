@@ -1,0 +1,1 @@
+$advancement grant $(name) only $(path)

@@ -1,0 +1,2 @@
+summon minecart ~ ~ ~ {Motion:[0.0,0.0,1.0],Tags:["lobby","shoot_range"],Passengers:[{id:"minecraft:armor_stand",Tags:["shoot_range","moving_target","lobby"],equipment:{head:{id:"minecraft:target",count:1}}}]}
+kill @s

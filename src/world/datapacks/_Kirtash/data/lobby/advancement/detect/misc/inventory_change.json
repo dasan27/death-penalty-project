@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "predicate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[lobby]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lobby:player/misc/inventory_change"
+  }
+}

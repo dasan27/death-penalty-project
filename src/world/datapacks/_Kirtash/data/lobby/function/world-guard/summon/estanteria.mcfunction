@@ -1,0 +1,10 @@
+summon minecraft:interaction -28.50 57.00 19.50 { Tags: ["world_guard","lobby"], height: 1f, width: 1.05f}
+summon minecraft:interaction -28.50 58 19.50 { Tags: ["world_guard","lobby"], height: .5f, width: .45f}
+summon minecraft:interaction -30 57 21 { Tags: ["world_guard","lobby"], height: 1f, width: 1.1f}
+summon minecraft:interaction -30 58 18 { Tags: ["world_guard","lobby"], height: 1f, width: 1.1f}
+summon minecraft:interaction -29.9 60.01 17.01 { Tags: ["world_guard","lobby"], height: 1f, width: 2}
+summon minecraft:interaction -28.9 57 16.00 { Tags: ["world_guard","lobby"], height: 1f, width: 2}
+summon minecraft:interaction -30 58 14 { Tags: ["world_guard","lobby"], height: 1f, width: 1.1f}
+summon minecraft:interaction -30 59 17 { Tags: ["world_guard","lobby"], height: 1f, width: 1.1f}
+summon minecraft:interaction -30 58 16 { Tags: ["world_guard","lobby"], height: 1f, width: 1.1f}
+summon minecraft:interaction -30 59 15 { Tags: ["world_guard","lobby"], height: 1f, width: 1.1f}

@@ -1,0 +1,1 @@
+$function game:experiment/core/default/experiment/$(id)

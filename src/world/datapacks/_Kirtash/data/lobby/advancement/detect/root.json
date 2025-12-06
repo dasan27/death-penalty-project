@@ -1,0 +1,9 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+
+        }
+    },
+    "parent": "core:detect"
+}

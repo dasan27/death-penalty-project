@@ -1,0 +1,2 @@
+summon minecraft:item_frame -12.50 58.03 36.50 {Tags:["lobby","new_player"],Motion: [0.0d, 0.0d, 0.0d], Facing: 1b, block_pos: [I; -13, 58, 36], ItemRotation: 2b, Invulnerable: 0b, fall_distance: 0.0d, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, -90.0f], Item: {components: {"minecraft:item_model": "minecraft:collar/default/main"}, count: 1, id: "minecraft:stick"}, ItemDropChance: 1.0f, Fire: -1s, Invisible: 1b, Fixed: 0b}
+summon interaction -13 57 36 {response:true, Tags: ["lobby","new_player"], height: 1.1f, width: 1.05f}

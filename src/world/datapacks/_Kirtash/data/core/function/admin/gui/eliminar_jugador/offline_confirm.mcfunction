@@ -1,0 +1,2 @@
+execute if score .online_mode server matches 1 run return run function core:admin/msg/error
+$tellraw @s ["",{text:"\uE008"},{text:" Eliminar datos de ",color:"gray"},{text:"$(nombre)",color:"#E1B435"},{text:". ",color:"gray"},{text:"[Confirmar]",color:"red",click_event:{action:"run_command",command:"/function core:database/remove-player/from-id {id:$(id)}"}}]

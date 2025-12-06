@@ -1,0 +1,1 @@
+$function core:admin/gui/gamerules/editar/main {regla:".player_prize_value",valor:$(valor),nombre:"Premio por jugador",v0:700,v1:1400}

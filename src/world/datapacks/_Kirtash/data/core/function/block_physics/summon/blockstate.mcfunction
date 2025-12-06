@@ -1,0 +1,3 @@
+$summon minecraft:block_display ~ ~ ~ {Tags:[physicsBlock,$(id),$(tags)],teleport_duration:1,interpolation_duration:1,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[-0.5f,0.0f,-0.5f],scale:[1.0f,1.0f,1.0f]},block_state:{Name:"$(block)",Properties:{facing:$(facing),face:$(face),half:$(half),shape:$(shape),powered:$(powered),open:$(open)}},Passengers:[{"id":"minecraft:shulker","Tags":["collisionShulker","physicsBlock","$(id)"],NoAI:1b,Invulnerable:1b,Silent:1b,NoGravity:1b,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:0b}]}]}
+
+setblock ~ ~ ~ air

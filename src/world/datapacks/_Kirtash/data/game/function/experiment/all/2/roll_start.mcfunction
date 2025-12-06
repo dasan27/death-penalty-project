@@ -1,0 +1,1 @@
+function game:experiment/core/template/roll/custom_start {function:"2/roll_output"}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.misc.play_music_disc.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.misc.play_music_disc.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:music_disc_ward"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/main"
+}

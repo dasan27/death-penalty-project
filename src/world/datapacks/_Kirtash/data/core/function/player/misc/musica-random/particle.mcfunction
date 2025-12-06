@@ -1,0 +1,1 @@
+$execute at @n[type=interaction,tag=jukebox] run particle note ~ ~1 ~ 0 0 0 $(random_number) 1 normal @s

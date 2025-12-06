@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "logros.misc.shoot_range.hit.title",
+            "bold": false
+        },
+        "description": {
+            "translate": "logros.misc.shoot_range.hit.desc",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:target"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:game/main"
+}

@@ -1,0 +1,1 @@
+execute if score .victory_stage game matches 0.. run function game:main/feature/victory/main/tick

@@ -1,0 +1,2 @@
+#$execute as @e[type=#core:block_physic,type=!shulker,tag=physicsBlock,tag=$(id)] at @s run tp @s ~$(x) ~$(y) ~$(z)
+$execute as @e[type=block_display,tag=physicsBlock,tag=$(id)] at @s run tp @s ~$(x) ~$(y) ~$(z)

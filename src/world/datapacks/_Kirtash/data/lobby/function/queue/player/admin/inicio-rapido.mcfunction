@@ -1,0 +1,2 @@
+execute unless score .queue_state lobby matches 1 run return run clear @s written_book[custom_data={pdm:queue_control}]
+execute if score .state lobby.queue matches 1 run function lobby:queue/countdown/full

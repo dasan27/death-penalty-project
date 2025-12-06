@@ -1,0 +1,9 @@
+{
+    "values": [
+      "minecraft:interaction",
+      "minecraft:armor_stand",
+      "minecart",
+      "item_frame",
+      "text_display"
+    ]
+  }

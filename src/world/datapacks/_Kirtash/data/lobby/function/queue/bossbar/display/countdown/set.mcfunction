@@ -1,0 +1,2 @@
+$bossbar set lobby:queue name [{translate:"queue.bossbar.countdown",with:[{score:{name:"#countdown_second",objective:"lobby.queue"},color:"$(color0)"}],color:"#60636d"}]
+$bossbar set lobby:queue color $(color1)

@@ -1,0 +1,1 @@
+$place template game:experiment/$(structure) -112 32 -21 none none 1 0 strict

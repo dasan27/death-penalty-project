@@ -1,0 +1,3 @@
+scoreboard players set @s experiment 2
+
+execute if score .debug_mode server matches 1 run tellraw @a ["",{text:"[DEBUG]",bold:true,color:"yellow"},{text:" Experiment -> "},{text:"Player selected in roll (",color:"gray"},{selector:"@s",color:red},{score:{name:"@s",objective:PlayerID},color:yellow},{text:") -> ",color:gray},{text:" game time is: ",color:gray},{score:{name:"#time",objective:"game"},color:"green"}]

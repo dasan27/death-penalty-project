@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"game\"]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "game": 1
+      }
+    },
+        {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "experiment": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  ]
+}

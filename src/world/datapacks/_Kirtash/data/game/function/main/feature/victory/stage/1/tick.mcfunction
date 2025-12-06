@@ -1,0 +1,2 @@
+execute if score $victory_screen_phys game matches 1.. run function game:main/feature/victory/stage/1/animate
+execute as @p[tag=game,scores={game=1}] if predicate game:main/feature/victory/stage_1 run function game:main/feature/victory/stage/2/start

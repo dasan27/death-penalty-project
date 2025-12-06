@@ -1,0 +1,1 @@
+summon interaction -29 57 14 { Tags: ["lobby","jukebox"], height: 1.1f, width: 1.1f,response:true}

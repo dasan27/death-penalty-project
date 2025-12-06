@@ -1,0 +1,2 @@
+execute if score .online_mode server matches 1 run return run function core:admin/msg/prohibido
+tellraw @s [{text:"\uE008"},{text:" Se restablecerán todos los valores predeterminados y se reiniciará el juego ",color:"gray"},{text:"[Confirmar]",color:"#E1B435",click_event:{action:"run_command",command:"/function core:admin/zdanger_zone/reboot"}}]

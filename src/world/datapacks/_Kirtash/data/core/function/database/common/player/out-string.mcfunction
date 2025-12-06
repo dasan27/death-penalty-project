@@ -1,0 +1,1 @@
+$data modify storage pdm:temp main.player.out set from storage pdm:player main.$(id).$(path)$(n)

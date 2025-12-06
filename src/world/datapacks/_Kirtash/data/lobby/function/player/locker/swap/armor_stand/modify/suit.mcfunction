@@ -1,0 +1,2 @@
+$data modify entity @s equipment.chest.components.minecraft:equippable.asset_id set value "mono/$(item)"
+$data modify entity @s equipment.feet.components.minecraft:equippable.asset_id set value "mono/$(item)"

@@ -1,0 +1,1 @@
+$tellraw @s ["",{text:"\uE008"},{text:" Devolver a ",color:"gray"},{text:"$(name)",color:"#E1B435"},{text:" al lobby y eliminar caché. ",color:"gray"},{text:"[Confirmar]",color:"red",click_event:{action:"run_command",command:"/execute as $(name) run function core:player/state/reset/main"}}]

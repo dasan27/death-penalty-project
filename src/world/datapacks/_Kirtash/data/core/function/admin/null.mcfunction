@@ -1,0 +1,1 @@
+#Esta funcion no hace nada, usar cuando no se puede dejar un espacio hueco

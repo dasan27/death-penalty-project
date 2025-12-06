@@ -1,0 +1,1 @@
+function game:experiment/core/template/player/inside_game_area {condition:"if",function:"game:main/player/event/die"}

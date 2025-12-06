@@ -1,0 +1,1 @@
+$execute as @e[type=#core:block_physic,tag=physicsBlock,tag=$(id)] run function core:block_physics/delete

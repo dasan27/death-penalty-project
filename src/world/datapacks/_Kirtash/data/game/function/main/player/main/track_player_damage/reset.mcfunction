@@ -1,0 +1,1 @@
+function game:main/player/data/remove/main {path:"last_hit"}

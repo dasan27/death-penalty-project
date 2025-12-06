@@ -1,0 +1,2 @@
+execute as @r[predicate=game:main/player/alive,tag=!temp.insert_roll] run function game:main/select/player/insert
+execute if entity @a[predicate=game:main/player/alive,tag=!temp.insert_roll] run function game:main/select/player/alive

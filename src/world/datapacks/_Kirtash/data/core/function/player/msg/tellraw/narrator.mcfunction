@@ -1,0 +1,1 @@
+$tellraw @s[tag=!config.no_transcription] [{text:"\uE011 "},{translate:"$(id)",color:"#858585",font:"minecraft:uniform"}]

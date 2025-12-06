@@ -1,0 +1,20 @@
+{
+    "parent": "lobby:detect/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:custom_data": {
+                "right_click": "tutorial_1"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "lobby:new-player/tutorial/1/click"
+    }
+}

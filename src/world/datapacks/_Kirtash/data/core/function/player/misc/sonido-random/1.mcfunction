@@ -1,0 +1,2 @@
+execute store result storage pdm:temp main.player.cosas.sonidoRandom.pitch int 1 run random value 0..1
+execute at @s run function core:player/misc/sonido-random/2 with storage pdm:temp main.player.cosas.sonidoRandom

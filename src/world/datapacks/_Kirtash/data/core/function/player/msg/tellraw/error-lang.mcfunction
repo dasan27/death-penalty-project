@@ -1,0 +1,1 @@
+tellraw @s [{translate:"server.fallback",fallback:"§4§lERROR: §r§cUnsuported language.\n§4The language you selected has not been translated yet. \n\n§l§nPLEASE USE ONLY THE FOLLOWING LANGUAGES: \n§r§eEnglish (UK), Español (España)"}]
