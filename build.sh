@@ -3,6 +3,26 @@ set -e
 echo ==================================
 echo Death Penalty Server Setup Utility
 echo ==================================
+
+if [ -d "build" ]; then
+    echo "[WARNING] This action will override the current server build!"
+    echo "All data inside the 'build' folder will be lost."
+    
+    read -n 1 -p "Continue with setup? (DESTRUCTIVE) [y/N]: " CONFIRM
+    echo ""
+
+    # Comprobamos la respuesta (convertimos a minúscula para aceptar Y o y)
+    case "$CONFIRM" in
+        [yY]) 
+            echo "Proceeding with build..."
+            ;;
+        *) 
+            echo "Operation cancelled by user."
+            exit 1
+            ;;
+    esac
+fi
+
 read -p "Enter the server IP: (ex. 127.1.0.0.0) " IP
 read -p "Enter the server port: (ex. 25565) " PORT
 read -p "Path to the Minecraft server version JAR: " JAR
