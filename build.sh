@@ -1,5 +1,8 @@
 #!/bin/bash
 set -e
+echo ==================================
+echo Death Penalty Server Setup Utility
+echo ==================================
 read -p "Enter the server IP: (ex. 127.1.0.0.0) " IP
 read -p "Enter the server port: (ex. 25565) " PORT
 read -p "Path to the Minecraft server version JAR: " JAR
