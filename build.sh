@@ -16,11 +16,6 @@ mkdir -p build
 cp -r src/* build/
 cp $JAR build/runtime.jar
 
-# Hacer el manifest
-echo address=$IP:$PORT > build/build.manifest
-echo webhost=%WEB >> build/build.manifest
-echo runtime=runtime.jar >> build/build.manifest
-
 # Crear ZIP del resource pack
 cd resourcepack
 zip -r ../build/resourcepack.zip *
@@ -29,7 +24,12 @@ cp build/resourcepack.zip /var/www/minecraft
 
 # Calcular SHA1
 SHA1=$(sha1sum "build/resourcepack.zip" | awk '{print $1}')
-echo sha1=$SHA1 >> build/build.manifest
+
+# Hacer el manifest
+echo address=$IP:$PORT > build/build.manifest
+echo webhost=%WEB >> build/build.manifest
+echo runtime=runtime.jar >> build/build.manifest
+echo resourcepack-hash=%SHA1 >> build/build.manifest
 
 # Actualizar server.properties
 sed -i "s|^resource-pack=.*|resource-pack=http://$IP:$PORT/resourcepack.zip|" "build/server.properties"
