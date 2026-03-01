@@ -15,6 +15,7 @@ mkdir -p build
 # Copiar código y jar
 cp -r src/* build/
 cp $JAR build/runtime.jar
+echo eula=true build/eula.txt
 
 # Crear ZIP del resource pack
 cd resourcepack
