@@ -1,16 +1,15 @@
-# death-penalty-project
+# Death Penalty Project - A Minecraft experience by [K1rtash](https://github.com/K1rtash)
 
 ## How to build
-
-1. Download and install JRE
-2. [Download the Minecraft Java Edition server](https://www.minecraft.net/en-us/download/server) and place the Jar file in server/
-3. Run start.bat
-4. The server is built, accept Mojang's EULA, then configure server.properties and networking
-5. Instal the Minecraft version, and to use the resourcepack locally you may use the k1rtash-package-exporter tool
+1. Download and install the [Java Runtime Enviroment 21](https://adoptium.net/es/temurin/releases?version=21&os=any&arch=any)
+2. [Download the Minecraft Java Edition server](https://mcversions.net) 
+3. Run the 'build' shell script
+4. The server is built, configure server.properties and your networking to share the server
+5. Run the 'run' shell script, your server is now started
 6. To enable in-game debugging and advanced options, grant operator permissions to a player and use /tag playername add OP
 
 ## How to host the resourcepack in the server (with Dropbox)
-1. Use the k1rtash-package-exporter to compress the pack to .zip
+1. Zip the directory, but dont make any subfolders, Minecraft requires a strict folder structure
 2. Upload to Dropbox and copy the link
 3. Set the server.properties resource-pack= to the link
 4. The end of the link must have dl=1
