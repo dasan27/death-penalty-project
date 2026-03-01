@@ -23,7 +23,7 @@ if [ -d "build" ]; then
     esac
 fi
 
-read -p "Enter the server IP: (ex. 127.1.0.0.1) " IP
+read -p "Enter the server IP: (ex. 127.0.0.1) " IP
 read -p "Enter the server port: (ex. 25565) " PORT
 read -p "Path to the Minecraft server version JAR: " JAR
 read -p "Path to the resource pack webhost: " WEB
