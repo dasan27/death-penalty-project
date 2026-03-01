@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
-IP=37.15.180.254:25566
+read -sp "Enter the public IP address" IP
+read -sp "Enter the port" PORT
 
 # Limpiar build
 rm -rf build
@@ -20,7 +21,9 @@ cp build/resourcepack.zip /var/www/minecraft
 SHA1=$(sha1sum "build/resourcepack.zip" | awk '{print $1}')
 
 # Actualizar server.properties
-sed -i "s|^resource-pack=.*|resource-pack=http://$IP/resourcepack.zip|" "build/server.properties"
+sed -i "s|^resource-pack=.*|resource-pack=http://$IP:$PORT/resourcepack.zip|" "build/server.properties"
 sed -i "s|^resource-pack-sha1=.*|resource-pack-sha1=$SHA1|" "build/server.properties"
+sed -i "s|^server-ip=.*|server-ip=$IP|" "build/server.properties"
+sed -i "s|^server-port=.*|server-port=$PORT|" "build/server.properties"
 
 echo "Build completo"
