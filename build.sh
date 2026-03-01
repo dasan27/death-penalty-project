@@ -11,7 +11,7 @@ mkdir -p build
 
 # Copiar código y jar
 cp -r src/* build/
-mv $JAR build/runtime.jar
+cp $JAR build/runtime.jar
 
 # Hacer el manifest
 echo address=$IP:$PORT > build/build.manifest
